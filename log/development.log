@@ -1,0 +1,18 @@
+Started GET "/?authuser=0" for 172.217.10.148 at 2019-03-21 11:46:10 -0400
+Cannot render console from 172.217.10.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"authuser"=>"0"}
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 24ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?authuser=0" for 172.217.10.148 at 2019-03-21 11:48:04 -0400
+Cannot render console from 172.217.10.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"authuser"=>"0"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 988ms (Views: 980.6ms | ActiveRecord: 0.0ms)
+
+
